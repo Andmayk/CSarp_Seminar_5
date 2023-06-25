@@ -50,6 +50,4 @@ FindMinMax(array, out minVol, out maxVol);  // найдем минимум и м
 
 difference = Math.Round(maxVol-minVol,2);  // округляем чтобы избавится от погрешности типа 97,93 - 54,51 = 43,42000000000001
 
-System.Console.WriteLine($"Разность между максимальным и минимальным \nэлементами массива  {maxVol} - {minVol} = {}");
-
-
+System.Console.WriteLine($"Разность между максимальным и минимальным \nэлементами массива  {maxVol} - {minVol} = {difference}");
